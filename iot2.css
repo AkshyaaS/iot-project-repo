@@ -1,0 +1,121 @@
+body{
+	font-family: 'Smooch Sans', sans-serif;
+}
+
+#header-nav{
+	background-color: #AB2424;
+	border-radius: 0;
+	border: 0;
+}
+h1#page-title{
+	margin: 0px 0px 0px 0px;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #D8D8D8;
+}
+
+.navbar-brand a:hover, .navbar-brand a:link {
+  text-decoration: none;
+}
+
+.container p{
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+}
+
+#content {
+	background-color:  #D8D8D8;
+}
+
+ h3{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+
+.d-md-none .container p{
+	font-size: 20px;
+	/* font-family: 'Playfair Display', serif; */
+}
+
+#nav-list {
+  margin-top: 5px; 
+}
+#nav-list a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+#nav-list li{
+  text-align: center;
+  font-size: 1.5em;
+  color: #D8D8D8;
+}
+
+.navbar-toggler {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header .fa-bars {
+  /* background-color: 1px solid #000000; */
+  color: #D8D8D8;
+}
+.navbar-header  button.navbar-toggler
+{
+	/* border: 1px solid #D8D8D8; */
+}
+
+#header-nav button{
+	position: absolute;
+	top: 25px;
+	right: 5px;
+}
+/* #header-nav button{ */
+	/* position: absolute; */
+	/* bottom: 5px; */
+	/* right: 5px; */
+/* } */
+#collapsable-nav a:hover, #collapsable-nav a:link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+/* .navbar-header button.navbar-toggler { */
+/* clear: both; */
+/* margin-top: -30px; */
+/* }  */
+*{box-sizing = border-box;
+  /* background-color: #0F9777 ; */
+ }
+
+section{border: 2px solid black; margin: 10px;  height: 400px; overflow: auto; background-color: #FFFFFF;}
+section3{border: 2px solid black;margin: 10px; height: 400px; overflow: auto;background-color: #FFFFFF;}
+p{ margin-right: 2px;clear: right;font-family: Brush Script, cursive; font-size: 120%;background-color: #FFFFFF;  }
+h2 {border: 5px solid black; margin-top: 0px; margin bottom: 10px; padding: 5px 20px 5px 20px;}
+h1{color: #FFFFFF; text-align: center; }
+#lord{background-color: #56F12D;}
+#percy{background-color: red;}
+#harry{background-color: blue;}
+
+@media(min-width:992px){
+#p1{float:left;} #p2{ float:left;} #p3{ float: left;}h2{float: right;}section{width:29.5% ;height: 500px; float:left;} section3{width:33% ;height: 500px; float:left;}li{clear: right;}}
+
+
+@media(min-width:768px) and (max-width:991px){
+#p1{  float: left; } #p2{float: left; } #p3{  float: left; }h2{float: right;}section{width:46% ;height: 300px;float: left;} section3{width:98% ;height: 200px; float:left;}}
+
+@media (max-width:767px){
+#p1{float: left;}#p2{ float: left;}#p3{float: left; }h2{float: right;}section{width:100% ;height: 200px; float: left;} section3{width:100% ;height: 200px; float:left;}}
+
+.container{
+	
+	align-items: center;
+}
