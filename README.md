@@ -1,4 +1,4 @@
-#Wireless Sensor Network for Alcohol Detection
+<h1>Wireless Sensor Network for Alcohol Detection</h1>
 <h2>Overview</h2>
 Wireless Sensor Networks (WSN) play a crucial role in long-distance data collection and transmission. Each sensor node acts as a relay station, facilitating seamless communication within the network. This project leverages LoRaWAN technology, known for its low power consumption and extended data transmission range, to establish a WSN for alcohol detection.<br>
 
