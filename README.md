@@ -15,5 +15,5 @@ MQ3 Alcohol Sensor: Collects data from various samples for alcohol detection.<br
 The primary goal of this project is to develop a Wireless Sensor Network for alcohol detection using an MQ3 gas sensor. The network communicates internally through LoRa transceivers and updates the obtained data to the cloud via an ESP 8266 module.<br>
 
 <h2>Implementation</h2>
-<<h3>IoT Integration</h3>
+<h3>IoT Integration</h3>
 Our system employs an Internet of Things (IoT) approach to ensure real-time data monitoring. The ESP 8266 module is responsible for transmitting data collected from the MQ3 sensor to an online cloud platform. The cloud platform hosts a dynamic webpage where users can access and visualize real-time alcohol detection data.<br>
